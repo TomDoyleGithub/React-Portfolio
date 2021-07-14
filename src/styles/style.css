@@ -157,7 +157,7 @@ nav img {
 
 /* Changes the visuals of the logo when hovering */
 .logo:hover {
-  opacity: 0.5;
+  opacity: 70%;
   height: 24px;
 }
 
@@ -838,11 +838,11 @@ footer {
     cursor: pointer;
     position: relative;
     left: 10px;
-    opacity: 80%;
+    opacity: 0.8;
   }
 
   .burger:hover {
-    opacity: 50%;
+    opacity: 0.5;
   }
 
   /* Changes the overall padding of the header box */
