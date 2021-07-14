@@ -40,7 +40,7 @@ main {
   top: 0;
   z-index: 10000000000;
   display: none;
-  opacity: 100%;
+  opacity: 1;
   transition: opacity 100ms ease-in-out;
 }
 
@@ -67,12 +67,12 @@ main {
 }
 
 .mobile-links a:hover {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 .cross {
   width: 20px;
-  opacity: 80%;
+  opacity: 0.8;
   position: absolute;
   right: 40px;
   top: 40px;
@@ -81,7 +81,7 @@ main {
 }
 
 .cross:hover {
-  opacity: 50%;
+  opacity: 0.5;
   transform: rotateX(30deg);
 }
 
@@ -157,7 +157,7 @@ nav img {
 
 /* Changes the visuals of the logo when hovering */
 .logo:hover {
-  opacity: 70%;
+  opacity: 0.7;
   height: 24px;
 }
 
@@ -170,7 +170,7 @@ nav img {
 }
 
 .social:hover {
-  opacity: 50%;
+  opacity: 0.5;
   height: 24px;
 }
 
@@ -197,7 +197,7 @@ nav a {
 /* Changing the display of the navigation links when hovered */
 nav a:hover {
   font-size: 13px;
-  opacity: 50%;
+  opacity: 0.5;
   transform: skew(-4deg);
 }
 
@@ -330,7 +330,7 @@ header article button {
 
 /* When you hover over the button it changes to thos color */
 header article button:hover {
-  opacity: 80%;
+  opacity: 0.8;
   animation: gradient 500ms ease infinite;
 }
 
@@ -407,7 +407,7 @@ header article button img {
 /* Changing the font size and opacity to paragraph elements */
 .three-layer p {
   font-size: 14px;
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 /* This is the background section for my intro */
@@ -465,7 +465,7 @@ header article button img {
 /* Some minor styling to the paragraph elements */
 .intro-grid p {
   font-size: 15px;
-  opacity: 80%;
+  opacity: 0.8;
   padding-right: 50px;
 }
 
@@ -527,14 +527,14 @@ header article button img {
 }
 
 .skills-grid div:hover img {
-  opacity: 50%;
+  opacity: 0.5;
 }
 
 /* Makes the paragraphs inline */
 .skills-grid div p {
   display: inline-block;
   margin-left: 15px;
-  opacity: 100%;
+  opacity: 1;
 }
 
 /* First section of skills with grid layout */
@@ -599,7 +599,7 @@ header article button img {
 
 .works-boxes div:hover h2,
 .works-boxes div:hover p {
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 /* To edit the h2 elements inside of the boxes */
@@ -616,7 +616,7 @@ header article button img {
 /* To style the icons inside the mini grid */
 .icon-img {
   height: 30px;
-  opacity: 80%;
+  opacity: 0.8;
   margin-bottom: 25px;
 }
 
@@ -652,7 +652,7 @@ header article button img {
 .works-text button img {
   position: absolute;
   height: 30px;
-  opacity: 10%;
+  opacity: 0.1;
   right: -15px;
   bottom: -10px;
   z-index: 1002;
@@ -689,7 +689,7 @@ header article button img {
   position: absolute;
   top: -25px;
   left: 10%;
-  opacity: 20%;
+  opacity: 0.2;
 }
 
 /* The main header for the contact section */
@@ -740,7 +740,7 @@ header article button img {
 .contact-grid article img {
   height: 40px;
   margin-top: 20px;
-  opacity: 80%;
+  opacity: 0.8;
 }
 /* Just the basic styling of the footer */
 footer {
@@ -751,7 +751,7 @@ footer {
   justify-content: center;
   font-weight: var(--light);
   font-size: 14px;
-  opacity: 60%;
+  opacity: 0.6;
   cursor: default;
 }
 
@@ -769,7 +769,7 @@ footer {
 }
 
 .resume-button:hover {
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 /* Below are media queries */
