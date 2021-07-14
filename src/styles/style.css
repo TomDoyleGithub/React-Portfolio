@@ -157,7 +157,7 @@ nav img {
 
 /* Changes the visuals of the logo when hovering */
 .logo:hover {
-  opacity: 50%;
+  opacity: 0.5;
   height: 24px;
 }
 
