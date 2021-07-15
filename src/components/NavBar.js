@@ -3,7 +3,7 @@ import logo from "../images/logo.svg"
 import linkedin from '../images/linkedin.svg'
 import hamburger from '../images/meat.svg'
 
-function Nav() {
+const Nav = () => {
 
   return (
     <nav id="page-top">
