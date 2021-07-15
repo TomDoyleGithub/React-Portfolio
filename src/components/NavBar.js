@@ -3,10 +3,10 @@ import logo from "../images/logo.svg"
 import linkedin from '../images/linkedin.svg'
 import hamburger from '../images/meat.svg'
 
-const Nav = () => {
+const Nav = ({ opacity }) => {
 
   return (
-    <nav id="page-top">
+    <nav id="page-top" style={{opacity: `${opacity}`, transition: '500ms'}}>
       <img src={logo} className="logo" alt="logo"/>
         <section id="links">
             <a className="scroll" href="#header-grid">Home.</a>
