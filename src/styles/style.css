@@ -25,6 +25,7 @@
 body {
   background-color: var(--light-white);
   color: var(--dark-gray);
+  cursor: url("../images/rec.svg"), auto;
 }
 
 main {
