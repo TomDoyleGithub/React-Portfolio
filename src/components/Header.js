@@ -7,7 +7,7 @@ import white from '../images/white.png'
 const Header = ({opacity, setOpacity}) => {
     setTimeout(function(){
         setOpacity('1')
-    }, 500);
+    }, 400);
 
 
   return (
