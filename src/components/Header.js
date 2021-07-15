@@ -4,10 +4,14 @@ import folder from '../images/folder.svg'
 import white from '../images/white.png'
 
 
-const Header = () => {
+const Header = ({opacity, setOpacity}) => {
+    setTimeout(function(){
+        setOpacity('1')
+    }, 400);
+
 
   return (
-    <header>
+    <header style={{opacity: `${opacity}`, transition: '500ms'}}>
         <section id="header-grid">
             <article>
                 <p>Hi There,</p>
@@ -15,8 +19,8 @@ const Header = () => {
                 <p>Welcome to my Portfolio Website.</p>
                 <a className="scroll" href="#intro-background"><button><img src={person} alt="user icon"/>More About Me</button></a>
             </article>
-            <img src={folder} class="folder" alt="folder"/>
-            <img src={white} class="white-corner" alt="White Corner Design Element"/>
+            <img src={folder} className="folder" alt="folder"/>
+            <img src={white} className="white-corner" alt="White Corner Design Element"/>
         </section>
     </header>
   );
