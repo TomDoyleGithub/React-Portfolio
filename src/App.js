@@ -8,8 +8,8 @@ import Nav from './components/Navbar';
   const [ viewNav, setNav ] = useState('none')
   return (
     <div>
-      <MobileNav viewNav={viewNav}/>
-      <Nav opacity={opacity} setOpacity={setOpacity} setNav={setNav}/>
+      <MobileNav viewNav={viewNav} setNav={setNav}/>
+      <Nav opacity={opacity} setNav={setNav}/>
       <Header opacity={opacity} setOpacity={setOpacity}/>
     </div>
   );
