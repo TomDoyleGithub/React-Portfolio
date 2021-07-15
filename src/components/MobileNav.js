@@ -11,10 +11,10 @@ const hideNav = () => {
         <section className="navigation-section" style={{display: `${viewNav}`}}>
             <section className="mobile-links">
                 <img src={close} class="cross" alt="Close Button" onClick={hideNav}/>
-                <a href="#header-grid" class="nav-link">Home.</a>
-                <a href="#intro-background" class="nav-link">About Me.</a>
-                <a href="#works-grid" class="nav-link">Works.</a>
-                <a href="#contact-background" class="nav-link">Contact.</a>
+                <a href="#header-grid" class="nav-link" onClick={hideNav}>Home.</a>
+                <a href="#intro-background" class="nav-link" onClick={hideNav}>About Me.</a>
+                <a href="#works-grid" class="nav-link" onClick={hideNav}>Works.</a>
+                <a href="#contact-background" class="nav-link" onClick={hideNav}>Contact.</a>
             </section>
         </section>
     )
