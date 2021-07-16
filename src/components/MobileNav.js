@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import close from '../images/close.svg'
 
 function MobileNav({viewNav, setNav}) {
@@ -11,10 +12,10 @@ return (
     <section className="navigation-section" style={{display: `${viewNav}`}}>
         <section className="mobile-links">
             <img src={close} className="cross" alt="Close Button" onClick={hideNav}/>
-            <a href="#header-grid" className="nav-link" onClick={hideNav}>Home.</a>
-            <a href="#intro-background" className="nav-link" onClick={hideNav}>About Me.</a>
-            <a href="#works-grid" className="nav-link" onClick={hideNav}>Works.</a>
-            <a href="#contact-background" className="nav-link" onClick={hideNav}>Contact.</a>
+            <Link activeClass="active" to="header-grid" spy={true} smooth={true} offset={-70} duration={400} onClick={hideNav}>Home.</Link>
+            <Link activeClass="active" to="intro-background" spy={true} smooth={true} offset={-70} duration={400} onClick={hideNav}>About Me.</Link>
+            <Link activeClass="active" to="works-grid" spy={true} smooth={true} offset={-70} duration={400} onClick={hideNav}>Works.</Link>
+            <Link activeClass="active" to="contact-background" spy={true} smooth={true} offset={-70} duration={400} onClick={hideNav}>Contact.</Link>
         </section>
     </section>
 )
