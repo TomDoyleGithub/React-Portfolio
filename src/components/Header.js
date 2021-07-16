@@ -9,8 +9,7 @@ const Header = ({opacity, setOpacity}) => {
     setTimeout(function(){
         setOpacity('1')
     }, 400);
-
-
+    
   return (
     <header style={{opacity: `${opacity}`, transition: '500ms'}}>
         <section id="header-grid">

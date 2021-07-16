@@ -31,6 +31,14 @@ main {
   background-color: var(--white);
 }
 
+.hide {
+  display: block;
+}
+
+.show {
+  display: none;
+}
+
 /* Broad styling for the mobile navigation section */
 .navigation-section {
   background-color: white;
@@ -965,6 +973,14 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
   /* Increased the height for mobile */
   #works-grid {
     margin-top: 100px;
