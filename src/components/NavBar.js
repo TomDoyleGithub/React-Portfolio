@@ -15,9 +15,9 @@ const Nav = ({ opacity, setNav }) => {
       <img src={logo} className="logo" alt="logo"/>
         <section id="links">
             <Link activeClass="active" to="header-grid" spy={true} smooth={true} offset={-70} duration={400}>Home.</Link>
-            <a className="scroll" href="#intro-background">About Me.</a>
-            <a className="scroll" href="#works-grid">Works.</a>
-            <a className="scroll" href="#contact-background">Contact.</a>
+            <Link activeClass="active" to="intro-background" spy={true} smooth={true} offset={-70} duration={400}>About Me.</Link>
+            <Link activeClass="active" to="works-grid" spy={true} smooth={true} offset={-70} duration={400}>Works.</Link>
+            <Link activeClass="active" to="contact-background" spy={true} smooth={true} offset={-70} duration={400}>Contact.</Link>
         </section>
         <a href="https://www.linkedin.com/in/tom-doyle-505947204/" target="_blank" rel="noreferrer" className="social"><img src={linkedin} alt="social icon"/></a>
         <img src={hamburger} className="burger" alt="Hamburger Icon" onClick={showNav}/>
