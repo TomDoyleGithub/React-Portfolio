@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Main from './components/Main';
 import MobileNav from './components/MobileNav';
 import Nav from './components/Navbar';
 import './styles/reset.css'
@@ -13,6 +14,7 @@ import './styles/style.css'
       <MobileNav viewNav={viewNav} setNav={setNav}/>
       <Nav opacity={opacity} setNav={setNav}/>
       <Header opacity={opacity} setOpacity={setOpacity}/>
+      <Main/>
     </div>
   );
 }
