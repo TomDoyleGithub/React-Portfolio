@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-scroll";
 import logo from "../images/logo.svg"
 import linkedin from '../images/linkedin.svg'
 import hamburger from '../images/meat.svg'
@@ -13,7 +14,7 @@ const Nav = ({ opacity, setNav }) => {
     <nav id="page-top" style={{opacity: `${opacity}`, transition: '500ms'}}>
       <img src={logo} className="logo" alt="logo"/>
         <section id="links">
-            <a className="scroll" href="#header-grid">Home.</a>
+            <Link activeClass="active" to="header-grid" spy={true} smooth={true} offset={-70} duration={400}>Home.</Link>
             <a className="scroll" href="#intro-background">About Me.</a>
             <a className="scroll" href="#works-grid">Works.</a>
             <a className="scroll" href="#contact-background">Contact.</a>
