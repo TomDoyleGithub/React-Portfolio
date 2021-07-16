@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.fd75daf1.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.3064542c.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.3064542c.chunk.js.map",
+    "main.js": "/React-Portfolio/static/js/main.6b3c1d23.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.6b3c1d23.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js.map",
     "static/js/2.dddf79d5.chunk.js": "/React-Portfolio/static/js/2.dddf79d5.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/React-Portfolio/index.html",
     "static/css/main.fd75daf1.chunk.css.map": "/React-Portfolio/static/css/main.fd75daf1.chunk.css.map",
     "static/js/2.dddf79d5.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.dddf79d5.chunk.js.LICENSE.txt",
+    "static/media/book.dd66db02.svg": "/React-Portfolio/static/media/book.dd66db02.svg",
     "static/media/close.17a94979.svg": "/React-Portfolio/static/media/close.17a94979.svg",
     "static/media/edition.bc5bcf15.svg": "/React-Portfolio/static/media/edition.bc5bcf15.svg",
     "static/media/folder.42fc05bb.svg": "/React-Portfolio/static/media/folder.42fc05bb.svg",
@@ -17,7 +18,9 @@
     "static/media/logo.14869080.svg": "/React-Portfolio/static/media/logo.14869080.svg",
     "static/media/meat.78529502.svg": "/React-Portfolio/static/media/meat.78529502.svg",
     "static/media/pin.c76cf309.svg": "/React-Portfolio/static/media/pin.c76cf309.svg",
+    "static/media/pro-pic.c0d492c1.jpg": "/React-Portfolio/static/media/pro-pic.c0d492c1.jpg",
     "static/media/style.css": "/React-Portfolio/static/media/rec.5c877411.svg",
+    "static/media/speech-arrow.7cbfe9f7.svg": "/React-Portfolio/static/media/speech-arrow.7cbfe9f7.svg",
     "static/media/speech-bubble.4b24e55e.svg": "/React-Portfolio/static/media/speech-bubble.4b24e55e.svg",
     "static/media/user.01fc4faf.svg": "/React-Portfolio/static/media/user.01fc4faf.svg"
   },
@@ -25,6 +28,6 @@
     "static/js/runtime-main.4b8dfcd6.js",
     "static/js/2.dddf79d5.chunk.js",
     "static/css/main.fd75daf1.chunk.css",
-    "static/js/main.3064542c.chunk.js"
+    "static/js/main.6b3c1d23.chunk.js"
   ]
 }
