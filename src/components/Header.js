@@ -18,7 +18,7 @@ const Header = ({opacity, setOpacity}) => {
                 <p>Hi There,</p>
                 <h1>I Am a Developer</h1>
                 <p>Welcome to my Portfolio Website.</p>
-                <Link activeClass="active" to="intro-background" spy={true} smooth={true} offset={-70} duration={400}><button><img src={person} alt="user icon"/>More About Me</button></Link>
+                <Link activeClass="active" to="intro-background" spy={true} smooth={true} offset={0} duration={1100}><button><img src={person} alt="user icon"/>More About Me</button></Link>
             </article>
             <img src={folder} className="folder" alt="folder"/>
             <img src={white} className="white-corner" alt="White Corner Design Element"/>
