@@ -20,7 +20,6 @@
   --tan: #f9f5f2;
   --white: white;
 }
-
 /* General styling for the body */
 body {
   background-color: var(--light-white);
