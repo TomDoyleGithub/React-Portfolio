@@ -1,5 +1,4 @@
 import React from 'react'
-import Zoom from 'react-reveal/Zoom';
 import edition from '../images/edition.svg'
 import pin from '../images/pin.svg'
 import bubble from '../images/speech-bubble.svg'
@@ -9,7 +8,6 @@ function Services() {
     
     <section className="three-background">
         <section className="three-layer">
-            <Zoom>
             <article>
                 <img src={edition} alt="penicl on paper"/>
                 <h2>Creative Design</h2>
@@ -25,7 +23,6 @@ function Services() {
                 <h2>Support</h2>
                 <p>I am willing to help you from start to finish and eliviate any problems along the way. Let's get started! </p>
             </article>
-            </Zoom>
         </section> 
     </section> 
     )
