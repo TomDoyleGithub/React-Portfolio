@@ -498,7 +498,6 @@ header article button img {
   height: 700px;
   display: flex;
   align-items: center;
-  cursor: default;
 }
 
 /* This is the grid layout for the skills */
