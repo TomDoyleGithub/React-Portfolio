@@ -9,7 +9,7 @@ function Services() {
     
     <section className="three-background">
         <section className="three-layer">
-            <Fade bottom>
+            <Fade bottom ssrFadeout>
             <article>
                 <img src={edition} alt="penicl on paper"/>
                 <h2>Creative Design</h2>

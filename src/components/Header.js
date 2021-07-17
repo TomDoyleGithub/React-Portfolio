@@ -11,7 +11,7 @@ const Header = ({opacity, setOpacity}) => {
     }, 400);
     
   return (
-    <header style={{opacity: `${opacity}`, transition: '500ms'}}>
+    <header style={{opacity: `${opacity}`, transition: '600ms'}}>
         <section id="header-grid">
             <article>
                 <p>Hi There,</p>
