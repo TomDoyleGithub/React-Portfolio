@@ -32,6 +32,11 @@ body {
 }
 
 .slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
   height: 100%;
   width: 100%;
 }

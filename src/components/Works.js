@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from "react-scroll";
 import dot from '../images/dots-menu.png'
 
+
 function Works() {
+   
     return (
         <section id="works-grid">
-            <section className="border slider">
-                
-            </section>
+            <section></section>
             <article className="works-text">
                 <p>Here are my</p>
                 <h1>Works</h1>
                 <p>Nothing gets better than a visual display of my portfolio. Take a dive and explore my work!</p>
-                <a href="#contact-background"><button>Contact Me <img src={dot} alt="Dot Effect"/></button></a>
+                <Link activeClass="active" to="contact-background" spy={true} smooth={true} offset={-70} duration={800}><button>Contact Me <img src={dot} alt="Dot Effect"/></button></Link>
             </article>
         </section>
     )
