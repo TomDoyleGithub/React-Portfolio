@@ -18,7 +18,7 @@ function About() {
                     <h1 className="show">Tom Doyle</h1>
                     <h1 className="hide"><Typewriter  options={{strings: ['Tom Doyle', 'A Coder'],autoStart: true,loop: true,}}/></h1>
                     <p>Well I'm a full stack developer, based in the heart of Sydney! My goal is to make sure your brand meets todays modern standards.</p>
-                    <Link activeClass="active" to="skills-background" spy={true} smooth={true} offset={-70} duration={400}><button><img src={book} className="book" alt="book icon"/>Learn More</button></Link>
+                    <Link activeClass="active" to="skills-background" spy={true} smooth={true} offset={0} duration={800}><button><img src={book} className="book" alt="book icon"/>Learn More</button></Link>
                 </article>
                 </Fade>
             </section>

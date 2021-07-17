@@ -16,7 +16,7 @@ const Nav = ({ opacity, setNav }) => {
         <section id="links">
             <Link activeClass="active" to="header-grid" spy={true} smooth={true} offset={0} duration={400}>Home.</Link>
             <Link activeClass="active" to="intro-background" spy={true} smooth={true} offset={0} duration={1000}>About Me.</Link>
-            <Link activeClass="active" to="works-grid" spy={true} smooth={true} offset={-70} duration={400}>Works.</Link>
+            <Link activeClass="active" to="works-grid" spy={true} smooth={true} offset={-70} duration={1200}>Works.</Link>
             <Link activeClass="active" to="contact-background" spy={true} smooth={true} offset={-70} duration={400}>Contact.</Link>
         </section>
         <a href="https://www.linkedin.com/in/tom-doyle-505947204/" target="_blank" rel="noreferrer" className="social"><img src={linkedin} alt="social icon"/></a>

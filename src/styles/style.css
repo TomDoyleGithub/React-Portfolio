@@ -560,17 +560,14 @@ header article button img {
   grid-template: 100% / 1fr 1fr;
   column-gap: 100px;
   align-items: center;
-  cursor: default;
   padding-bottom: 200px;
   transition: all 200ms ease-in-out;
 }
 
 /* The sub grid layout for my work content */
 .works-boxes {
-  display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
-  grid-gap: 25px;
-  height: 65%;
+  height: 80%;
+  border: 1px solid black;
 }
 
 /* To select every box inside the sub grid */

@@ -3,6 +3,7 @@ import About from './About'
 import Services from './Services'
 import Fade from 'react-reveal/Fade';
 import Skills from './Skills';
+import Works from './Works';
 
 function Main() {
     return (
@@ -11,6 +12,7 @@ function Main() {
             <Fade bottom ssrFadeout>
                 <About/>
                 <Skills/>
+                <Works/>
             </Fade>
         </main>
     )
