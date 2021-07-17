@@ -27,6 +27,15 @@ body {
   cursor: url("../images/rec.svg"), auto;
 }
 
+.border {
+  border: 1px solid black;
+}
+
+.slider {
+  height: 100%;
+  width: 100%;
+}
+
 main {
   background-color: var(--white);
 }
@@ -558,16 +567,11 @@ header article button img {
   margin: auto;
   display: grid;
   grid-template: 100% / 1fr 1fr;
+  overflow-x: scroll;
   column-gap: 100px;
   align-items: center;
   padding-bottom: 200px;
   transition: all 200ms ease-in-out;
-}
-
-/* The sub grid layout for my work content */
-.works-boxes {
-  height: 80%;
-  border: 1px solid black;
 }
 
 /* To select every box inside the sub grid */

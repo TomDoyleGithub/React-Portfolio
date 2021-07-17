@@ -4,9 +4,9 @@ import dot from '../images/dots-menu.png'
 function Works() {
     return (
         <section id="works-grid">
-            <article className="works-boxes">
+            <section className="border slider">
                 
-            </article>
+            </section>
             <article className="works-text">
                 <p>Here are my</p>
                 <h1>Works</h1>
