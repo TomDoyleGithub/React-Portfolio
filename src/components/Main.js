@@ -5,6 +5,7 @@ import Fade from 'react-reveal/Fade';
 import Skills from './Skills';
 import Works from './Works';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function Main() {
     return (
@@ -15,6 +16,7 @@ function Main() {
                 <Skills/>
                 <Works/>
                 <Contact/>
+                <Footer/>
             </Fade>
         </main>
     )
