@@ -79,6 +79,7 @@ body {
   height: 103%;
   position: relative;
   bottom: 3px;
+  image-rendering: auto;
 }
 
 .image-slide {
@@ -767,6 +768,8 @@ header article button img {
 .lets-work {
   text-align: center;
   padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .lets-work h1 {
