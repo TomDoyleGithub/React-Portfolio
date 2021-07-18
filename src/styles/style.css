@@ -84,6 +84,7 @@ body {
 }
 
 .image-slide {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -95,11 +96,10 @@ body {
 }
 
 .slide {
-  opacity: 0;
-  transition: transform, opacity 1s ease;
+  opacity: 1;
+  transition-duration: 1s ease;
   position: relative;
-  bottom: 0px;
-  transform: scale(0.8);
+  transform: scale(0.3);
 }
 
 .slide.active {
@@ -1128,7 +1128,6 @@ footer {
   .card {
     height: 65%;
     box-shadow: none;
-    border: 2px solid rgb(238, 238, 238);
   }
 
   /* Make the first skills list into one column */
