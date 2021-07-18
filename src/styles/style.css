@@ -1110,7 +1110,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 375px) {
   /* Made the skills height bigger for mobile */
   #skills-background {
     height: 900px;
@@ -1119,6 +1119,12 @@ footer {
   /* Changes width of overall grid */
   .skills-grid {
     width: 75%;
+  }
+
+  .card {
+    height: 65%;
+    box-shadow: none;
+    border: 2px solid rgb(238, 238, 238);
   }
 
   /* Make the first skills list into one column */
