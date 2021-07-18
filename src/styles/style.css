@@ -844,7 +844,19 @@ footer {
 
 /* Below are media queries */
 
+@media screen and (max-width: 1180px) {
+  .card {
+    width: 70%;
+    height: 55%;
+  }
+}
+
 @media screen and (max-width: 950px) {
+  .card {
+    width: 300px;
+    height: 80%;
+  }
+
   .classicImage {
     height: 130%;
   }
@@ -852,6 +864,7 @@ footer {
   /* The grid layout for my works */
   #works-grid {
     height: 800px;
+    row-gap: 50px;
     grid-template: 1fr 1fr / 100%;
   }
 
@@ -1060,9 +1073,21 @@ footer {
   /* Increased the height for mobile */
   #works-grid {
     margin-top: 100px;
-    height: 1000px;
-    padding-bottom: 50px;
-    grid-template: 1fr 3fr / 100%;
+    height: 800px;
+    padding-bottom: 70px;
+    grid-template: 1fr 1fr / 100%;
+  }
+
+  .classicImage {
+    height: 110%;
+  }
+
+  .slider {
+    height: 70%;
+  }
+
+  .card {
+    width: 60%;
   }
 
   /* Made the grid one column for mobile */
