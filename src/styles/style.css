@@ -59,17 +59,18 @@ body {
 }
 
 .card {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   overflow: hidden;
   width: 300px;
   height: 70%;
   position: absolute;
   top: 50%;
   left: 50%;
+  box-shadow: 0px 0px 8px #353a3f2c;
   transform: translate(-50%, -50%);
   border-radius: 20px;
   display: grid;
-  grid-template: 1.8fr 1fr / 100%;
+  grid-template: 100% / 100%;
   align-items: center;
   justify-content: center;
 }

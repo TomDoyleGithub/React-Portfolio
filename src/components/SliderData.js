@@ -6,42 +6,27 @@ import quiz from '../images/Quiz.png'
 export const SliderData = [
     <section className="card">
         <section className="image-slide">
-            <img src={game} alt='Game Page' className='classicImage'/>
-        </section>
-        <section className="text-slide">
-            
+            <img src={budget} alt='Budget Page' className='classicImage'/>
         </section>
     </section>,
     <section className="card">
         <section className="image-slide">
-            <img src={budget} alt='Budget Page' className='classicImage'/>
-        </section>
-        <section className="text-slide">
-            
+            <img src={game} alt='Game Page' className='classicImage'/>
         </section>
     </section>,
     <section className="card">
         <section className="image-slide">
             <img src={image} alt='Weather Dashboard' className='classicImage'/>
         </section>
-        <section className="text-slide">
-
-        </section>
     </section>,
     <section className="card">
         <section className="image-slide">
             <img src={blog} alt='Blog Page' className='classicImage'/>
         </section>
-        <section className="text-slide">
-
-        </section>
     </section>,
     <section className="card">
         <section className="image-slide">
             <img src={quiz} alt='Quiz Page' className='classicImage'/>
-        </section>
-        <section className="text-slide">
-            
         </section>
     </section>,
 ]
