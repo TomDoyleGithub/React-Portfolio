@@ -60,6 +60,7 @@ body {
 
 .card {
   background-color: gainsboro;
+  overflow: hidden;
   width: 300px;
   height: 70%;
   position: absolute;
@@ -67,9 +68,27 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 20px;
-  display: flex;
+  display: grid;
+  grid-template: 1.8fr 1fr / 100%;
   align-items: center;
   justify-content: center;
+}
+
+.classicImage {
+  height: 103%;
+  position: relative;
+  bottom: 3px;
+}
+
+.image-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.image-slide,
+.text-slide {
+  height: 100%;
+  overflow: hidden;
 }
 
 .slide {
@@ -825,6 +844,10 @@ footer {
 /* Below are media queries */
 
 @media screen and (max-width: 950px) {
+  .classicImage {
+    height: 130%;
+  }
+
   /* The grid layout for my works */
   #works-grid {
     height: 800px;
