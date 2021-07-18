@@ -1070,11 +1070,17 @@ footer {
     display: block;
   }
 
+  #contact-background {
+    height: 1100px;
+  }
+
   /* Increased the height for mobile */
   #works-grid {
     margin-top: 100px;
     height: 800px;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
+    margin-top: 10px;
+    row-gap: 0px;
     grid-template: 1fr 1fr / 100%;
   }
 
