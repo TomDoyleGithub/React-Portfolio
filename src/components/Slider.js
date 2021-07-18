@@ -20,11 +20,11 @@ function Slider() {
     }
 
     return (
-        <section className="border slider">
+        <section className=" slider">
             <img style={arrowStyle} src={leftArow} className="leftArrow" alt="Left Arrow" onClick={prevSlide}/>
             {SliderData.map((slide, index) => {
                 return (
-                    <section className={index === current ? 'slide active' : 'slide'}>
+                    <section className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && slide}
                     </section>
                 )
