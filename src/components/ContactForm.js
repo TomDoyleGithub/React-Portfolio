@@ -15,19 +15,19 @@ function ContactForm({opacity}) {
       setIcon('block')
     }
 
-    const showContent = () => {
-      setContent('block')
-    }
-
     const hideContent = () => {
         setContent('none')
       }
+
+    const showContent = () => {
+      setContent('block')
+    }
 
     const iconVar = {
         opened: {
             width: '90vw',
             height: '80vh',
-            bottom: 70,
+            bottom: 50,
             left: 0,
             right: 0,
             margin: 'auto',
@@ -49,7 +49,7 @@ function ContactForm({opacity}) {
                         setIsOpen(state => !state)
                         showIcon()
                         hideContent()
-                    }}>Hello</motion.p>
+                    }}>Close</motion.p>
                 </section>
             </motion.div>
             <motion.img whileHover={{opacity: 0.8}} style={{display: `${viewIcon}`, opacity: `${opacity}`}}  onClick={() => {
