@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import MobileNav from './components/MobileNav';
 import Nav from './components/Navbar';
+import ContactForm from './components/ContactForm'
 import './styles/reset.css'
 import './styles/style.css'
 
@@ -15,6 +16,7 @@ import './styles/style.css'
       <Nav opacity={opacity} setNav={setNav}/>
       <Header opacity={opacity} setOpacity={setOpacity}/>
       <Main/>
+      <ContactForm opacity={opacity}/>
     </div>
   );
 }
