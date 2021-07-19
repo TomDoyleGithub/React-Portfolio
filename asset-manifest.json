@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b95c6cda.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.b1d50ce4.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.b1d50ce4.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.e012b37b.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.a222dfc6.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.a222dfc6.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js.map",
     "static/js/2.efc4102b.chunk.js": "/React-Portfolio/static/js/2.efc4102b.chunk.js",
     "static/js/2.efc4102b.chunk.js.map": "/React-Portfolio/static/js/2.efc4102b.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.b95c6cda.chunk.css.map": "/React-Portfolio/static/css/main.b95c6cda.chunk.css.map",
+    "static/css/main.e012b37b.chunk.css.map": "/React-Portfolio/static/css/main.e012b37b.chunk.css.map",
     "static/js/2.efc4102b.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.efc4102b.chunk.js.LICENSE.txt",
     "static/media/2048.d1ee7ae8.png": "/React-Portfolio/static/media/2048.d1ee7ae8.png",
     "static/media/Blog.3c2ee185.png": "/React-Portfolio/static/media/Blog.3c2ee185.png",
@@ -17,9 +17,8 @@
     "static/media/Weather.6022faea.png": "/React-Portfolio/static/media/Weather.6022faea.png",
     "static/media/book.dd66db02.svg": "/React-Portfolio/static/media/book.dd66db02.svg",
     "static/media/bootstrap-logo.08690dc5.svg": "/React-Portfolio/static/media/bootstrap-logo.08690dc5.svg",
-    "static/media/chatting.50257811.svg": "/React-Portfolio/static/media/chatting.50257811.svg",
+    "static/media/chatting.40285e18.svg": "/React-Portfolio/static/media/chatting.40285e18.svg",
     "static/media/close.17a94979.svg": "/React-Portfolio/static/media/close.17a94979.svg",
-    "static/media/closeW.54e3dd7b.svg": "/React-Portfolio/static/media/closeW.54e3dd7b.svg",
     "static/media/css-logo.b3cb4ab8.svg": "/React-Portfolio/static/media/css-logo.b3cb4ab8.svg",
     "static/media/edition.bc5bcf15.svg": "/React-Portfolio/static/media/edition.bc5bcf15.svg",
     "static/media/folder.42fc05bb.svg": "/React-Portfolio/static/media/folder.42fc05bb.svg",
@@ -36,7 +35,7 @@
     "static/media/pin.c76cf309.svg": "/React-Portfolio/static/media/pin.c76cf309.svg",
     "static/media/pro-pic.c0d492c1.jpg": "/React-Portfolio/static/media/pro-pic.c0d492c1.jpg",
     "static/media/react-logo.d191755b.svg": "/React-Portfolio/static/media/react-logo.d191755b.svg",
-    "static/media/style.css": "/React-Portfolio/static/media/recWhite.dfd856ed.svg",
+    "static/media/style.css": "/React-Portfolio/static/media/rec.5c877411.svg",
     "static/media/right-arrow.b7f95d22.svg": "/React-Portfolio/static/media/right-arrow.b7f95d22.svg",
     "static/media/speech-arrow.7cbfe9f7.svg": "/React-Portfolio/static/media/speech-arrow.7cbfe9f7.svg",
     "static/media/speech-bubble.4b24e55e.svg": "/React-Portfolio/static/media/speech-bubble.4b24e55e.svg",
@@ -47,7 +46,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b8dfcd6.js",
     "static/js/2.efc4102b.chunk.js",
-    "static/css/main.b95c6cda.chunk.css",
-    "static/js/main.b1d50ce4.chunk.js"
+    "static/css/main.e012b37b.chunk.css",
+    "static/js/main.a222dfc6.chunk.js"
   ]
 }
