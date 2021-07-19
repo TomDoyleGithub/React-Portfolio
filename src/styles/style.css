@@ -61,6 +61,7 @@ input {
   border-radius: 50px;
   align-items: center;
   justify-content: center;
+  cursor: url("../images/recWhite.svg"), auto;
   transition: opacity 300ms ease-in-out 0.5s;
   z-index: 90000000;
 }
