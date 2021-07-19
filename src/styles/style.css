@@ -90,9 +90,16 @@ body {
   background-color: rgba(0, 0, 0, 0.822);
   position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: var(--white);
+}
+
+.w-github {
+  padding-top: 16px;
+  width: 25px;
+  opacity: 90%;
 }
 
 .repo-link p {
