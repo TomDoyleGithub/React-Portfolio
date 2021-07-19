@@ -99,7 +99,7 @@ body {
 .w-github {
   padding-top: 16px;
   width: 25px;
-  opacity: 90%;
+  opacity: 0.9;
 }
 
 .repo-link p {
