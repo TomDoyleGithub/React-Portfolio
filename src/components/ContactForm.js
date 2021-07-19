@@ -62,7 +62,7 @@ function ContactForm({opacity}) {
                     </form>
                 </section>
             </motion.div>
-            <motion.img whileHover={{opacity: 0.8}} style={{display: `${viewIcon}`, opacity: `${opacity}`}}  onClick={() => {
+            <motion.img whileHover={{opacity: 0.8, transform: 'rotate(10deg)'}} style={{display: `${viewIcon}`, opacity: `${opacity}`}}  onClick={() => {
                 setIsOpen(state => !state)
                 hideIcon()
                 showContent()
