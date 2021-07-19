@@ -31,20 +31,19 @@ input {
   border: none;
   border-radius: 8px;
   padding: 15px 15px;
-  min-width: 250px;
-  max-width: 300px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.267);
+  width: 300px;
+  color: rgb(51, 51, 51);
+  background-color: rgba(197, 196, 196, 0.233);
 }
 
 .submit-me {
-  background-color: white !important;
-  color: rgb(51, 51, 51) !important;
-  width: 100%;
+  background-color: rgb(51, 51, 51) !important;
+  color: white !important;
+  width: 300px;
 }
 
 ::placeholder {
-  color: rgba(255, 255, 255, 0.699);
+  color: rgba(51, 51, 51, 0.699);
   font-family: var(--poppins);
   font-size: 13px;
 }
@@ -60,14 +59,20 @@ input {
 }
 
 .form-content {
-  color: white;
+  color: rgb(51, 51, 51);
+  width: 80%;
+  height: 500px;
 }
 
 .contact-formy {
   width: 50px;
   height: 50px;
-  background-color: rgb(51, 51, 51);
-  padding-top: 40px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 8px 32px 0 rgba(110, 110, 110, 0.37);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -76,7 +81,6 @@ input {
   border-radius: 50px;
   align-items: center;
   justify-content: center;
-  cursor: url("../images/recWhite.svg"), auto;
   transition: opacity 300ms ease-in-out 0.5s;
   z-index: 90000000;
 }
@@ -92,10 +96,12 @@ input {
 .Woah {
   display: flex;
   padding: 20px;
+  height: 100%;
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.068);
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   row-gap: 20px;
 }
 

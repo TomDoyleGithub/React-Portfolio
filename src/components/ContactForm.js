@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { motion } from 'framer-motion'
 import chatting from '../images/chatting.svg'
-import whiteclose from '../images/closeW.svg'
+import whiteclose from '../images/close.svg'
 
 function ContactForm({opacity}) {
     const [isOpen, setIsOpen] = useState(false);
@@ -26,7 +26,7 @@ function ContactForm({opacity}) {
 
     const iconVar = {
         opened: {
-            width: '90vw',
+            width: '80vw',
             height: '80vh',
             bottom: 50,
             left: 25,
