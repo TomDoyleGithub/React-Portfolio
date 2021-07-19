@@ -55,9 +55,9 @@ function ContactForm({opacity}) {
                     }}/>
                     <form className="Woah">
                         <p>Send Me A Message</p>
-                        <input placeholder="Name"></input>
-                        <input placeholder="Email"></input>
-                        <input placeholder="Message"></input>
+                        <input placeholder="Name" name="Name" type='Name' maxLength="20" required></input>
+                        <input placeholder="Email" name="Email" type='Email' maxLength="25" pattern='^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$' required></input>
+                        <input placeholder="Message" name="Message" maxLength="100" required></input>
                         <button className="submit-me">Let's Talk</button>
                     </form>
                 </section>
