@@ -58,7 +58,7 @@ function ContactForm({opacity}) {
                         <input placeholder="Name" name="Name" type='Name' maxLength="20" required></input>
                         <input placeholder="Email" name="Email" type='Email' maxLength="25" pattern='^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$' required></input>
                         <input placeholder="Message" name="Message" maxLength="100" required></input>
-                        <button className="submit-me">Let's Talk</button>
+                        <motion.button whileHover={{opacity: '0.7'}} className="submit-me">Let's Talk</motion.button>
                     </form>
                 </section>
             </motion.div>
