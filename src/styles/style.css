@@ -1145,6 +1145,9 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
+  .w-github {
+    display: none;
+  }
   /* Made the skills height bigger for mobile */
   #skills-background {
     height: 900px;
