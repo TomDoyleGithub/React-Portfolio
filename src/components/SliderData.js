@@ -10,7 +10,7 @@ export const SliderData = [
         <section className="image-slide">
             <img src={budget} alt='Budget Page' className='classicImage'/>
             <motion.div whileHover={{opacity: 1 , transition: { duration: 0.8, type: "spring", }}} className="repo-link">
-                <p>Budegt Tracker</p>
+                <p>Budget Tracker</p>
                 <motion.a whileHover={{opacity: 0.5, transition: { duration: 0.3, type: "spring", }}}  href="https://github.com/Punkinut/Budget-Tracker" target="_blank" rel="noreferrer"><img src={github} className="w-github" alt="Github Icon"/></motion.a>
             </motion.div>
         </section>
