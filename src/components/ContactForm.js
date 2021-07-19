@@ -38,6 +38,7 @@ function ContactForm({opacity}) {
             height: '50px',
             borderRadius: '50px',
             bottom: 25,
+            right: 25,
         }
     }
 
