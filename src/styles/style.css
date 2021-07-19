@@ -27,6 +27,10 @@ body {
   cursor: url("../images/rec.svg"), auto;
 }
 
+#root {
+  overflow: hidden;
+}
+
 input {
   border: none;
   border-radius: 8px;
