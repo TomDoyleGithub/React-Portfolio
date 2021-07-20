@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import leftArow from '../images/left-arrow.svg'
 import rightArow from '../images/right-arrow.svg'
-import { SliderData } from './SliderData'
+import { SliderData } from './Projects'
 
 function Slider() {
     const arrowStyle = {
