@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.f242f5b6.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.bd2a2d8b.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.bd2a2d8b.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.83801cfc.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.c11bb704.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.c11bb704.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.4b8dfcd6.js.map",
     "static/js/2.7716bbde.chunk.js": "/React-Portfolio/static/js/2.7716bbde.chunk.js",
     "static/js/2.7716bbde.chunk.js.map": "/React-Portfolio/static/js/2.7716bbde.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "static/css/main.f242f5b6.chunk.css.map": "/React-Portfolio/static/css/main.f242f5b6.chunk.css.map",
+    "static/css/main.83801cfc.chunk.css.map": "/React-Portfolio/static/css/main.83801cfc.chunk.css.map",
     "static/js/2.7716bbde.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.7716bbde.chunk.js.LICENSE.txt",
     "static/media/2048.d1ee7ae8.png": "/React-Portfolio/static/media/2048.d1ee7ae8.png",
     "static/media/Blog.3c2ee185.png": "/React-Portfolio/static/media/Blog.3c2ee185.png",
@@ -22,6 +22,7 @@
     "static/media/css-logo.b3cb4ab8.svg": "/React-Portfolio/static/media/css-logo.b3cb4ab8.svg",
     "static/media/edition.bc5bcf15.svg": "/React-Portfolio/static/media/edition.bc5bcf15.svg",
     "static/media/folder.42fc05bb.svg": "/React-Portfolio/static/media/folder.42fc05bb.svg",
+    "static/media/geply.126b7b9f.png": "/React-Portfolio/static/media/geply.126b7b9f.png",
     "static/media/github.e0df113a.svg": "/React-Portfolio/static/media/github.e0df113a.svg",
     "static/media/html-logo.2f2b7279.svg": "/React-Portfolio/static/media/html-logo.2f2b7279.svg",
     "static/media/illustrator-logo.c23b6fe8.svg": "/React-Portfolio/static/media/illustrator-logo.c23b6fe8.svg",
@@ -46,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.4b8dfcd6.js",
     "static/js/2.7716bbde.chunk.js",
-    "static/css/main.f242f5b6.chunk.css",
-    "static/js/main.bd2a2d8b.chunk.js"
+    "static/css/main.83801cfc.chunk.css",
+    "static/js/main.c11bb704.chunk.js"
   ]
 }
