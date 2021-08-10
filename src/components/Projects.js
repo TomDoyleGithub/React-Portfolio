@@ -3,10 +3,20 @@ import blog from '../images/Blog.png'
 import game from '../images/2048.png'
 import budget from '../images/Budget.png'
 import quiz from '../images/Quiz.png'
+import geply from '../images/geply.png'
 import github from '../images/w-github.svg'
 import { motion } from 'framer-motion'
 export const SliderData = [
-    <a href="https://punkinut-budget-tracker.herokuapp.com/" target="_blank" rel="noreferrer" className="card">
+    <a href="https://github.com/Punkinut/Geply" target="_blank" rel="noreferrer" className="card">
+        <section className="image-slide">
+            <img src={geply} alt='Quiz Page' className='classicImage'/>
+            <motion.div whileHover={{opacity: 1 , transition: { duration: 0.8, type: "spring", }}} className="repo-link">
+                <p>Geply</p>
+                <motion.a whileHover={{opacity: 0.5, transition: { duration: 0.3, type: "spring", }}} href="https://github.com/Punkinut/Geply" target="_blank" rel="noreferrer"><img src={github} className="w-github" alt="Github Icon"/></motion.a>
+            </motion.div>
+        </section>
+    </a>,
+    <a  href="https://punkinut-budget-tracker.herokuapp.com/" target="_blank" rel="noreferrer" className="card">
         <section className="image-slide">
             <img src={budget} alt='Budget Page' className='classicImage'/>
             <motion.div whileHover={{opacity: 1 , transition: { duration: 0.8, type: "spring", }}} className="repo-link">

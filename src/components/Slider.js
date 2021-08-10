@@ -20,7 +20,7 @@ function Slider() {
     }
 
     return (
-        <section className=" slider">
+        <section className="slider">
             <img style={arrowStyle} src={leftArow} className="leftArrow" alt="Left Arrow" onClick={prevSlide}/>
             {SliderData.map((slide, index) => {
                 return (
