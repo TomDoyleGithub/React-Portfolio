@@ -7,9 +7,9 @@ import geply from '../images/geply.png'
 import github from '../images/w-github.svg'
 import { motion } from 'framer-motion'
 export const SliderData = [
-    <a href="https://github.com/Punkinut/Geply" target="_blank" rel="noreferrer" className="card">
+    <a href="https://geply.herokuapp.com/" target="_blank" rel="noreferrer" className="card">
         <section className="image-slide">
-            <img src={geply} alt='Quiz Page' className='classicImage'/>
+            <img src={geply} alt='Geply' className='classicImage'/>
             <motion.div whileHover={{opacity: 1 , transition: { duration: 0.8, type: "spring", }}} className="repo-link">
                 <p>Geply</p>
                 <motion.a whileHover={{opacity: 0.5, transition: { duration: 0.3, type: "spring", }}} href="https://github.com/Punkinut/Geply" target="_blank" rel="noreferrer"><img src={github} className="w-github" alt="Github Icon"/></motion.a>
