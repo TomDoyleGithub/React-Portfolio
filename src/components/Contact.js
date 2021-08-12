@@ -29,7 +29,7 @@ function Contact() {
                     </a>
                 </article>
                 <section className="resume">
-                    <a href="https://drive.google.com/file/d/1Ec-mxwteIAZnHQZyx9zt-jHQDVatDm9I/view?usp=sharing" target="_blank" rel="noreferrer"><button className="resume-button">Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1twHpNHX7CLmH8xkKplx5yJkckAObc4uX/view?usp=sharing" target="_blank" rel="noreferrer"><button className="resume-button">Resume</button></a>
                 </section>
             </section>
         </section>  
